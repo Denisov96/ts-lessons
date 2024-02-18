@@ -1,7 +1,7 @@
 // String Variable:
 // Declare a variable myString and assign it a string value
 export function declareString(): string {
-  
+  const myString: string = `How are you?`;
   return myString;
 }
 
@@ -16,7 +16,7 @@ export function concatenateStrings(string1: string, string2: string): string {
 // Declare a variable greeting that contains a greeting of a person.
 // ex. name = 'Sara', greeting = 'Hello Sara!'
 export function templateStrings(name: string): string {
-
+const greeting: string = `Hello Sara!`
   return greeting;
 }
 

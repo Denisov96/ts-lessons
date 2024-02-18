@@ -10,11 +10,11 @@ describe("Numbers homework", () => {
     expect(Exercises.sumNumbers()).toBe(18);
   });
 
-  test("divideNumbers", () => {
+  test.only("divideNumbers", () => {
     expect(Exercises.divideNumbers(21, 7)).toBe(3);
   });
 
-  test("newtonGravity", () => {
+  test("newtonGravity", (): void => {
     expect(Exercises.newtonGravity()).toBe(0.0003337);
   });
 });

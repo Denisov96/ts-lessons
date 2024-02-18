@@ -1,6 +1,7 @@
 // Number variable:
 // Declare a variable myNumber and assign it a numerical value
 export function declareNumber(): number {
+  const myNumber: number = 33
   
   return myNumber;
 }
@@ -10,6 +11,7 @@ export function declareNumber(): number {
 export function sumNumbers(): number {
   const a = 6;
   const b = 12;
+ const sum = a + b
 
   return sum;
 }
@@ -17,7 +19,7 @@ export function sumNumbers(): number {
 // Divide numbers:
 // Declare a variable result that is a result of division of num1 on num2
 export function divideNumbers(num1: number, num2: number): number {
-
+  const result = num1 / num2;
   return result;
 }
 
@@ -29,6 +31,18 @@ export function divideNumbers(num1: number, num2: number): number {
 // distance between masses is 20 meters
 // gravitational constant is 6.674×10^−11
 export function newtonGravity(): number {
-
+  const G = 6.674 * Math.pow(10, -11);
+  const m1 = 2e6;
+  const m2 = 1000;
+  const r = 20;
+  const force = (G * m1 * m2) / Math.pow(r, 2);
   return force;
+}
+
+export function sumNumbers1(): number {
+const a = 983
+const b = 666
+const c = 579
+const sum = a + b + c 
+return sum
 }
